@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // your config options here
   reactStrictMode: true,
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "api.dicebear.com",
-      },
-    ],
-  },
-  
+};
+
+export default nextConfig;
